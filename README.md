@@ -14,7 +14,7 @@ Reporting: Cucumber-Extent report
 #### Input to Project
 I have used Cucumber feature file to take input for the given task. You can find this feature file "\com.friday.address.test\CucumberFeatureFile\FridayAddressTask.feature" here.These inputs passed to logic class "AddressLogic.java" to perform operation. The feature file will look like this.
 
-Feature file is used in BDD for scenarios writing in Gherkin format which is generate gluecode in stepdifinition file, in this project it is "\com.friday.address.test\src\test\java\StepDefinitions\FridayAddressTaskSteps.java"
+Feature file is used in Behavior Driven Development(BDD) for scenarios writing in Gherkin format which generate gluecode in stepdifinition file, in this project it is "\com.friday.address.test\src\test\java\StepDefinitions\FridayAddressTaskSteps.java"
 
 ![image](https://user-images.githubusercontent.com/23300234/50474590-8aa9f400-09e7-11e9-9c36-78d973f0115c.png)
 
