@@ -3,7 +3,7 @@ package FrameworkLibraries;
 /**
  * @author r.moharana
  * This class is a singleton class
- * This will help if framework has multiple external files like properties
+ * This will help if framework has multiple external files like properties file or any other external file like excel
  * Hold single instance of class till execution
  */
 public class FileReaderLibrary {
