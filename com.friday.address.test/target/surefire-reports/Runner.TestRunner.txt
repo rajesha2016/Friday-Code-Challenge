@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: Runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.8 sec <<< FAILURE! - in Runner.TestRunner
+Given User has input address string 123B and get Json output(| 123B |)  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: Invalid Address line '123B'.Street name is missing
+
+| 123B |  Time elapsed: 0.004 sec  <<< FAILURE!
+java.lang.AssertionError: Invalid Address line '123B'.Street name is missing
+
