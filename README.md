@@ -60,4 +60,4 @@ Steps:
 
 5> After execution finish, report generated inside "com.friday.address.test>target>cucumber-reports" folder
 
-P.S: I have desgined the regular expression based on the pattern and it will work for simillar inputs. I have tried to cover all possible scenarios within my program.
+###### P.S: I have covered all three cases and desgined the regular expression based on those patterns and it will work for simillar inputs. I have tried to cover all possible scenarios within my program.
