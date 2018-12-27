@@ -30,21 +30,21 @@ public class AddressLogic {
 		
 		try{
 			
-			Pattern pattern=Pattern.compile(patternRegex);
-			Matcher matcher=pattern.matcher(givenInputString);
+			Pattern pattern = Pattern.compile(patternRegex);
+			Matcher matcher = pattern.matcher(givenInputString);
 			
 			if(matcher.find()){
 				
-				houseNumber=matcher.group(0).trim();
-				street=givenInputString.replace(houseNumber, "").replaceAll("[^a-zA-Z0-9 ]+", "").trim();
+				houseNumber = matcher.group(0).trim();
+				street = givenInputString.replace(houseNumber, "").replaceAll("[^a-zA-Z0-9 ]+", "").trim();
+				
 				Assert.assertTrue("Invalid Address line '"+givenInputString+"'.Street name is missing", street.length()>0);
 				
 				jsonOutput(givenInputString,houseNumber,street);
 				
-			}else{
-					
+			}else	
 				Reporter.addStepLog("Invalid address line '"+givenInputString+"'.House Number is missing");
-			}
+			
 		}catch(Exception e){
 			
 			e.printStackTrace();
@@ -59,7 +59,7 @@ public class AddressLogic {
 	@SuppressWarnings("unchecked")
 	public void jsonOutput(String inputAddress,String houseNumber,String street){
 		
-		JSONObject jobj=new JSONObject();
+		JSONObject jobj = new JSONObject();
 		jobj.put("street", street);
 		jobj.put("housenumber", houseNumber);
 		

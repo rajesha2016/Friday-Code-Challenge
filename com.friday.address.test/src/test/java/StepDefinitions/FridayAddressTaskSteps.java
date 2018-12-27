@@ -21,10 +21,9 @@ public class FridayAddressTaskSteps implements En{
 				
 				address.verifyPattern(inputAddressString);
 				
-			}else{
-				
-				Reporter.addStepLog("Input address "+inputAddressString+" has no characters.Empty string");
-			}
+			}else				
+				Reporter.addStepLog("Input address '"+inputAddressString+"' has no characters.Empty string");
+			
 		   
 		});
 
