@@ -12,11 +12,17 @@ Reporting: Cucumber-Extent report
 ### Project Understanding
 
 #### Input to Project
-I have used Cucumber feature file to take input for the given task. These inputs passed to logic class to perform operation. The feature file will look like this.
+I have used Cucumber feature file to take input for the given task. You can find this feature file "\com.friday.address.test\CucumberFeatureFile\FridayAddressTask.feature" here.These inputs passed to logic class AddressLogic.java to perform operation. The feature file will look like this.
+
+Feature file is used in BDD for scenarios writing in Gherkin format which is generate gluecode in stepdifinition file, in this project it is "\com.friday.address.test\src\test\java\StepDefinitions\FridayAddressTaskSteps.java"
 
 ![image](https://user-images.githubusercontent.com/23300234/50469683-85db4500-09d3-11e9-9845-1e4ef62e386f.png)
 
 Please ignore the warning on feature file as Cucumber with JAVA 8 still evolving.This warning will not there if we use lower version of JAVA(accordingly the gluecode will change).
+
+Project Structure looks like below:
+
+![image](https://user-images.githubusercontent.com/23300234/50472218-e7a0ac80-09dd-11e9-90b8-a704e6b242ed.png)
 
 #### Output of the Program
 I have used Cucumber-Extent report library to display the output. This is a HTML file. You can find this HTML report file inside com.friday.address.test>target>cucumber-reports>report.html 
@@ -31,7 +37,7 @@ If user pass only House Number then the script will throw assertion validation a
 ##### Option:1
 Steps:
 
-1> Clone the repository https://github.com/rajesha2016/Friday-Code-Challenge.git from GitHub to IDE or download to system and import to IDE
+1> Clone the repository from GitHub https://github.com/rajesha2016/Friday-Code-Challenge.git to IDE or download to system and import to IDE
 
 2> Right click on the project and do maven update
 
@@ -53,3 +59,5 @@ Steps:
 4> Then type "mvn clean test"
 
 5> After execution finish, report generated inside com.friday.address.test>target>cucumber-reports folder
+
+P.S: I have desgined the regular expression based on the pattern and it will work for simillar inputs. I have tried to cover all possible scenarios within my program.
