@@ -16,7 +16,7 @@ I have used Cucumber feature file to take input for the given task. You can find
 
 Feature file is used in BDD for scenarios writing in Gherkin format which is generate gluecode in stepdifinition file, in this project it is "\com.friday.address.test\src\test\java\StepDefinitions\FridayAddressTaskSteps.java"
 
-![image](https://user-images.githubusercontent.com/23300234/50469683-85db4500-09d3-11e9-9845-1e4ef62e386f.png)
+![image](https://user-images.githubusercontent.com/23300234/50474590-8aa9f400-09e7-11e9-9c36-78d973f0115c.png)
 
 Please ignore the warning on feature file as Cucumber with JAVA 8 still evolving.This warning will not there if we use lower version of JAVA(accordingly the gluecode will change).
 
